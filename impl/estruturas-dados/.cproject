@@ -85,7 +85,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="listas-array.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+                        <entry excluding="pilha/pilha-array.c|lista/lista-ponteiro.c|lista/listas-array.c|listas-array.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         					
                     </sourceEntries>
                     				
@@ -179,7 +179,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="listas-array.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+                        <entry excluding="pilha/pilha-array.c|lista/lista-ponteiro.c|lista/listas-array.c|listas-array.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         					
                     </sourceEntries>
                     				
