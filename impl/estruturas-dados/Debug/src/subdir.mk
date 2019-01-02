@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/listas-array.c 
+../src/lista-ponteiro.c 
 
 OBJS += \
-./src/listas-array.o 
+./src/lista-ponteiro.o 
 
 C_DEPS += \
-./src/listas-array.d 
+./src/lista-ponteiro.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

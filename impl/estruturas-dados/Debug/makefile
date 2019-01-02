@@ -23,19 +23,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: listas-array
+all: estruturas-dados
 
 # Tool invocations
-listas-array: $(OBJS) $(USER_OBJS)
+estruturas-dados: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "listas-array" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "estruturas-dados" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) listas-array
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) estruturas-dados
 	-@echo ' '
 
 .PHONY: all clean dependents
